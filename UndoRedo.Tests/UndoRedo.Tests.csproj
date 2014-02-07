@@ -47,7 +47,7 @@
     <Compile Include="Commands\ExpressionCommandTest.cs" />
     <Compile Include="Commands\MultiplicationCommandTests.cs" />
     <Compile Include="Commands\ExpressionCommandBuilderTests.cs" />
-    <Compile Include="NumberCruncherTests.cs" />
+    <Compile Include="UndoRedoCommandHandlerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

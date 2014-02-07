@@ -5,7 +5,7 @@ using UndoRedo.Commands;
 namespace UndoRedo.Tests
 {
     [TestFixture]
-    public class NumberCruncherTests
+    public class UndoRedoCommandHandlerTests
     {
         private Number number;
         private UndoRedoCommandHandler numberCruncher;

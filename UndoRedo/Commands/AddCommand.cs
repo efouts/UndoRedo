@@ -15,12 +15,12 @@ namespace UndoRedo.Commands
 
         public void Do()
         {
-            number.Add(amount);   
+            number.Value += amount;   
         }
 
         public void Undo()
         {
-            number.Subtract(amount);
+            number.Value -= amount;
         }
     }
 }

@@ -4,36 +4,11 @@ namespace UndoRedo
 {
     public class Number
     {
-        public Int32 Value { get; private set; }
+        public Int32 Value { get; set; }
 
-        public Number(Int32 initialState)
+        public Number(Int32 initialValue)
         {
-            Value = initialState;
-        }
-
-        public void Add(Int32 amount)
-        {
-            Value = Value + amount;
-        }
-
-        public void Subtract(Int32 amount)
-        {
-            Value = Value - amount;
-        }
-
-        public override string ToString()
-        {
-            return Value.ToString();
-        }
-
-        public void Multiply(Int32 amount)
-        {
-            Value = Value * amount;
-        }
-
-        public void Divide(Int32 amount)
-        {
-            Value = Value / amount;
+            Value = initialValue;
         }
     }
 }

@@ -15,12 +15,12 @@ namespace UndoRedo.Commands
 
         public void Do()
         {
-            number.Multiply(amount);   
+            number.Value *= amount;   
         }
 
         public void Undo()
         {
-            number.Divide(amount);
+            number.Value /= amount;
         }
     }
 }
